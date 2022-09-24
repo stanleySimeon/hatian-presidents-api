@@ -3107,3 +3107,103 @@ Processing by Api::V1::PresidentsController#show as HTML
 Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms | Allocations: 697)
 
 
+Started GET "/api/v1/presidents/2" for ::1 at 2022-09-24 16:10:32 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPresident Load (0.2ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 200 OK in 22ms (Views: 3.6ms | ActiveRecord: 4.2ms | Allocations: 4725)
+
+
+Started GET "/api/v1/presidents/2" for ::1 at 2022-09-24 16:29:53 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPresident Load (0.6ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 200 OK in 66ms (Views: 1.5ms | ActiveRecord: 20.7ms | Allocations: 3704)
+
+
+Started GET "/api/v1/presidents/id" for 127.0.0.1 at 2022-09-24 16:41:40 +0100
+Processing by Api::V1::PresidentsController#show as */*
+  Parameters: {"id"=>"id"}
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 404 Not Found in 31ms (ActiveRecord: 8.8ms | Allocations: 3418)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find President with 'id'=id):
+  
+app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Started GET "/api/v1/presidents/1" for 127.0.0.1 at 2022-09-24 16:41:55 +0100
+Processing by Api::V1::PresidentsController#show as */*
+  Parameters: {"id"=>"1"}
+  [1m[36mPresident Load (1.8ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 200 OK in 7ms (Views: 0.9ms | ActiveRecord: 1.8ms | Allocations: 700)
+
+
+Started GET "/api/v1/presidents/2/name" for ::1 at 2022-09-24 17:00:29 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/presidents/2/name"):
+  
+Started GET "/api/v1/presidents/2/name" for ::1 at 2022-09-24 17:01:52 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"president_id"=>"2"}
+Completed 404 Not Found in 23ms (ActiveRecord: 9.0ms | Allocations: 3834)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find President without an ID):
+  
+app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Started GET "/api/v1/presidents/2/" for ::1 at 2022-09-24 17:02:03 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mPresident Load (0.9ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 200 OK in 28ms (Views: 1.2ms | ActiveRecord: 1.2ms | Allocations: 3671)
+
+
+Started GET "/api/v1/presidents/name" for ::1 at 2022-09-24 17:02:06 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"id"=>"name"}
+  [1m[36mPresident Load (0.5ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.5ms | Allocations: 563)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find President with 'id'=name):
+  
+app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Started GET "/api/v1/presidents/1/" for ::1 at 2022-09-24 17:02:16 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPresident Load (0.7ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 200 OK in 5ms (Views: 1.1ms | ActiveRecord: 0.7ms | Allocations: 696)
+
+
+Started GET "/api/v1/presidents/1/name" for ::1 at 2022-09-24 17:02:22 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"president_id"=>"1"}
+Completed 404 Not Found in 0ms (ActiveRecord: 0.0ms | Allocations: 119)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find President without an ID):
+  
+app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Started GET "/api/v1/presidents/1/name" for ::1 at 2022-09-24 17:03:52 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/presidents/1/name"):
+  
+Started GET "/api/v1/presidents/1/" for ::1 at 2022-09-24 17:03:56 +0100
+Processing by Api::V1::PresidentsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPresident Load (0.5ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:8:in `show'
+Completed 200 OK in 43ms (Views: 1.1ms | ActiveRecord: 23.2ms | Allocations: 4808)
+
+
