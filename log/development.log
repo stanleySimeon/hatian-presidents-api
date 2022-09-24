@@ -3264,3 +3264,113 @@ Processing by Api::V1::PresidentsController#index as HTML
 Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 1000)
 
 
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_try_advisory_lock(4660376930346399990)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (1.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.4ms)[0m  [1m[34mSELECT "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = $1 LIMIT $2[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT pg_advisory_unlock(4660376930346399990)[0m
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:00 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (1.1ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 10.8ms | Allocations: 7379)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:01 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 1005)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:01 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:01 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:01 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.5ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.5ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:02 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.4ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:02 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:03 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.1ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:03 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.9ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:03 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 3ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:03 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:03 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.4ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:04 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.1ms | ActiveRecord: 0.4ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:32 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (1.9ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 17ms (Views: 13.9ms | ActiveRecord: 1.9ms | Allocations: 1000)
+
+
+Started GET "/api/v1/presidents/" for ::1 at 2022-09-24 20:37:34 +0100
+Processing by Api::V1::PresidentsController#index as HTML
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:4:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 1000)
+
+
