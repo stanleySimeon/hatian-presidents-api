@@ -1,0 +1,19 @@
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: <%= ENV.fetch("RAILS_MAX_THREADS") { 5 } %>
+
+development:
+  <<: *default
+  database: hatian_presidents_api_development
+
+test:
+  <<: *default
+  database: hatian_presidents_api_test
+
+production:
+  <<: *default
+  database: hatian_presidents_api_production
+  username: hatian_presidents_api
+  password: <%= ENV["HATIAN_PRESIDENTS_API_DATABASE_PASSWORD"] %>
+  adapter: postgresql
