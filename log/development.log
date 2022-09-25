@@ -3578,3 +3578,1362 @@ Processing by Api::V1::PresidentsController#index as HTML
 Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.4ms | Allocations: 1000)
 
 
+Started GET "/api/v1/api-docs" for ::1 at 2022-09-25 03:32:24 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/api-docs"):
+  
+Started GET "/api-docs" for ::1 at 2022-09-25 03:32:34 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:32:34 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:32:34 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:32:34 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:32:34 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:32:35 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:32:35 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:32:35 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:41:56 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:41:56 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:41:56 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:41:56 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:41:56 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:41:57 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:41:57 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:42:06 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:43:09 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:43:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:43:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:43:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:43:09 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:43:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:43:10 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:43:14 +0100
+Started GET "/api-docs/" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:45:07 +0100
+Started GET "/api-docs" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:45:12 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:46:01 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:46:02 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:47:56 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:47:56 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:47:56 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:47:56 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:47:56 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:47:57 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:47:58 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:47:58 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:47:58 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:47:58 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:47:58 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:47:58 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:11 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 03:53:12 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:20:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:20:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:20:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:20:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:20:26 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:20:27 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:20:27 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:22:52 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:23:17 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:23:34 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:26:03 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:26:03 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:26:03 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:26:03 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:04 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:26:05 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:05 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:33 +0100
+Started GET "/api-docs/" for ::1 at 2022-09-25 04:26:36 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:26:36 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:26:36 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:26:36 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:26:36 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:26:37 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:26:37 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:26:40 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 04:41:53 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 10:52:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 10:52:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 10:52:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 10:52:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 10:52:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 10:52:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 10:52:08 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:14:07 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:06 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:07 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:08 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:34 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:34 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:34 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:34 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:34 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:34 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:34 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:35 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:35 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:35 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:35 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:35 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:35 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:35 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:15:36 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:15:36 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api-docs/v1/swagger.yaml"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:16:11 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:16:12 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:23:45 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:25:59 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:08 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:08 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:08 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:08 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:08 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:08 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:09 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:09 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:29 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:29 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:29 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:29 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:29 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:29 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:29 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:30 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:30 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:30 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:30 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:30 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:30 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:30 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:43 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:28:43 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:44 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:28:44 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:28:44 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:08 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:08 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:29:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:09 +0100
+  
+Psych::SyntaxError ((<unknown>): found character that cannot start any token while scanning for the next token at line 8 column 5):
+  
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:455:in `parse_stream'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:399:in `parse'
+/usr/local/Cellar/ruby/3.1.2_1/lib/ruby/3.1.0/psych.rb:324:in `safe_load'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:46:in `load_yaml'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:39:in `parse_file'
+rswag-api (2.6.0) lib/rswag/api/middleware.rb:19:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:61:in `block in call'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `block in instrument'
+activesupport (7.0.4) lib/active_support/notifications/instrumenter.rb:24:in `instrument'
+activesupport (7.0.4) lib/active_support/notifications.rb:206:in `instrument'
+actionpack (7.0.4) lib/action_dispatch/middleware/stack.rb:60:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+railties (7.0.4) lib/rails/railtie.rb:226:in `public_send'
+railties (7.0.4) lib/rails/railtie.rb:226:in `method_missing'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:19:in `block in <class:Constraints>'
+actionpack (7.0.4) lib/action_dispatch/routing/mapper.rb:48:in `serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `each'
+actionpack (7.0.4) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.0.4) lib/action_dispatch/routing/route_set.rb:852:in `call'
+rack (2.2.4) lib/rack/etag.rb:27:in `call'
+rack (2.2.4) lib/rack/conditional_get.rb:27:in `call'
+rack (2.2.4) lib/rack/head.rb:12:in `call'
+activerecord (7.0.4) lib/active_record/migration.rb:603:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:27:in `block in call'
+activesupport (7.0.4) lib/active_support/callbacks.rb:99:in `run_callbacks'
+actionpack (7.0.4) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/actionable_exceptions.rb:17:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/debug_exceptions.rb:28:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/show_exceptions.rb:26:in `call'
+railties (7.0.4) lib/rails/rack/logger.rb:40:in `call_app'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `block in call'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `block in tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:37:in `tagged'
+activesupport (7.0.4) lib/active_support/tagged_logging.rb:99:in `tagged'
+railties (7.0.4) lib/rails/rack/logger.rb:25:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/remote_ip.rb:93:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/request_id.rb:26:in `call'
+rack (2.2.4) lib/rack/runtime.rb:22:in `call'
+activesupport (7.0.4) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:61:in `block in call'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:26:in `collect_events'
+actionpack (7.0.4) lib/action_dispatch/middleware/server_timing.rb:60:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/static.rb:23:in `call'
+rack (2.2.4) lib/rack/sendfile.rb:110:in `call'
+actionpack (7.0.4) lib/action_dispatch/middleware/host_authorization.rb:137:in `call'
+rack-cors (1.1.1) lib/rack/cors.rb:100:in `call'
+railties (7.0.4) lib/rails/engine.rb:530:in `call'
+puma (5.6.5) lib/puma/configuration.rb:252:in `call'
+puma (5.6.5) lib/puma/request.rb:77:in `block in handle_request'
+puma (5.6.5) lib/puma/thread_pool.rb:340:in `with_force_shutdown'
+puma (5.6.5) lib/puma/request.rb:76:in `handle_request'
+puma (5.6.5) lib/puma/server.rb:443:in `process_client'
+puma (5.6.5) lib/puma/thread_pool.rb:147:in `block in spawn_thread'
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:49 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:29:50 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:13 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:14 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:26 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:30:46 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:22 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:23 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:26 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:31:33 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:32:17 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:32:38 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:32:39 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:32:39 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:32:39 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:32:39 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:32:39 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:32:39 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:33:24 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:33:35 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:34:32 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:34:32 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:34:32 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:34:32 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:34:33 +0100
+Started GET "/api/v1/presidents/" for 127.0.0.1 at 2022-09-25 16:34:55 +0100
+Processing by Api::V1::PresidentsController#index as */*
+  [1m[36mPresident Load (1.5ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 52ms (Views: 47.4ms | ActiveRecord: 19.2ms | Allocations: 12550)
+
+
+Started GET "/api/v1/presidents/api-docs" for 127.0.0.1 at 2022-09-25 16:35:10 +0100
+Processing by Api::V1::PresidentsController#show as */*
+  Parameters: {"id"=>"api-docs"}
+  [1m[36mPresident Load (0.3ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:13:in `show'
+Completed 404 Not Found in 8ms (ActiveRecord: 0.6ms | Allocations: 1499)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find President with 'id'=api-docs):
+  
+app/controllers/api/v1/presidents_controller.rb:13:in `show'
+Started GET "/api/v1/presidents/api-docs/index.html" for 127.0.0.1 at 2022-09-25 16:35:23 +0100
+  
+ActionController::RoutingError (No route matches [GET] "/api/v1/presidents/api-docs/index.html"):
+  
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:35:32 +0100
+Started GET "/api/v1/presidents/" for 127.0.0.1 at 2022-09-25 16:39:03 +0100
+Processing by Api::V1::PresidentsController#index as */*
+  [1m[36mPresident Load (0.6ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.6ms | Allocations: 1065)
+
+
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:39:58 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:40:04 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:40:21 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:08 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:09 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:21 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:22 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:26 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:27 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:41:38 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:41:38 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:41:38 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:41:38 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:39 +0100
+Started GET "/api-docs/v1/swagger.yaml" for ::1 at 2022-09-25 16:41:39 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:41:39 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:44:15 +0100
+  [1m[36mActiveRecord::SchemaMigration Pluck (2.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:44:16 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:44:16 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:44:16 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:16 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:44:16 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:16 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:18 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:20 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:44:21 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:21 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:44:22 +0100
+Started GET "/api/v1/presidents/2" for ::1 at 2022-09-25 16:45:41 +0100
+Processing by Api::V1::PresidentsController#show as JSON
+  Parameters: {"id"=>"2"}
+  [1m[36mPresident Load (0.5ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:13:in `show'
+Completed 200 OK in 21ms (Views: 0.6ms | ActiveRecord: 5.9ms | Allocations: 10109)
+
+
+Started GET "/api/v1/presidents/" for 127.0.0.1 at 2022-09-25 16:46:30 +0100
+Processing by Api::V1::PresidentsController#index as */*
+  [1m[36mPresident Load (2.1ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 11ms (Views: 7.7ms | ActiveRecord: 2.1ms | Allocations: 1127)
+
+
+Started GET "/api-docs" for 127.0.0.1 at 2022-09-25 16:46:40 +0100
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2022-09-25 16:46:40 +0100
+Started GET "/api-docs" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs" for 127.0.0.1 at 2022-09-25 16:46:44 +0100
+Started GET "/api-docs/index.html" for 127.0.0.1 at 2022-09-25 16:46:45 +0100
+Started GET "/api/v1/presidents" for ::1 at 2022-09-25 16:49:01 +0100
+Processing by Api::V1::PresidentsController#index as JSON
+  [1m[36mPresident Load (0.6ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.6ms | ActiveRecord: 0.6ms | Allocations: 1014)
+
+
+Started GET "/api/v1/presidents" for ::1 at 2022-09-25 16:49:03 +0100
+Processing by Api::V1::PresidentsController#index as JSON
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.4ms | Allocations: 1014)
+
+
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:07 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:08 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:51:26 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:27 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:51:27 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:51:27 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:53:07 +0100
+Started GET "/api/v1/presidents" for ::1 at 2022-09-25 16:53:20 +0100
+Processing by Api::V1::PresidentsController#index as JSON
+  [1m[36mPresident Load (0.7ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.7ms | Allocations: 1003)
+
+
+Started GET "/api/v1/presidents" for ::1 at 2022-09-25 16:53:23 +0100
+Processing by Api::V1::PresidentsController#index as JSON
+  [1m[36mPresident Load (0.5ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 4.4ms | ActiveRecord: 0.5ms | Allocations: 1003)
+
+
+Started GET "/api/v1/presidents" for ::1 at 2022-09-25 16:53:25 +0100
+Processing by Api::V1::PresidentsController#index as JSON
+  [1m[36mPresident Load (0.4ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents"[0m
+  ↳ app/controllers/api/v1/presidents_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms | Allocations: 1003)
+
+

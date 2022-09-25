@@ -1,0 +1,184 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "API V1",
+    "version": "v1"
+  },
+  "paths": {
+    "/api/v1/presidents": {
+      "get": {
+        "summary": "Retrieves presidents",
+        "tags": [
+          "Presidents"
+        ],
+        "responses": {
+          "200": {
+            "description": "presidents found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "id": {
+                        "type": "integer"
+                      },
+                      "avatar": {
+                        "type": "string"
+                      },
+                      "name": {
+                        "type": "string"
+                      },
+                      "birth_year": {
+                        "type": "integer"
+                      },
+                      "death_year": {
+                        "type": "integer"
+                      },
+                      "took_of_office": {
+                        "type": "string"
+                      },
+                      "left_office": {
+                        "type": "string"
+                      },
+                      "party": {
+                        "type": "string"
+                      },
+                      "title": {
+                        "type": "string"
+                      },
+                      "created_at": {
+                        "type": "string",
+                        "format": "date_time"
+                      },
+                      "updated_at": {
+                        "type": "string",
+                        "format": "date_time"
+                      }
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "presidents not found"
+          }
+        }
+      }
+    },
+    "/api/v1/presidents/{id}": {
+      "get": {
+        "summary": "Retrieves a president",
+        "tags": [
+          "Presidents"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "president found",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "integer"
+                    },
+                    "name": {
+                      "type": "string"
+                    },
+                    "created_at": {
+                      "type": "string",
+                      "format": "date_time"
+                    },
+                    "updated_at": {
+                      "type": "string",
+                      "format": "date_time"
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "created_at",
+                    "updated_at"
+                  ]
+                }
+              }
+            }
+          },
+          "404": {
+            "description": "president not found"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "president": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "integer"
+          },
+          "avatar": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "birth_year": {
+            "type": "integer"
+          },
+          "death_year": {
+            "type": "integer"
+          },
+          "took_of_office": {
+            "type": "string"
+          },
+          "left_of_office": {
+            "type": "string"
+          },
+          "party": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "created_at": {
+            "type": "string",
+            "format": "date_time"
+          },
+          "updated_at": {
+            "type": "string",
+            "format": "date_time"
+          }
+        },
+        "required": [
+          "id",
+          "name",
+          "created_at",
+          "updated_at",
+          "avatar",
+          "birth_year",
+          "death_year",
+          "took_of_office",
+          "left_of_office",
+          "party",
+          "title"
+        ]
+      }
+    }
+  }
+}
