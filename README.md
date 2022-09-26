@@ -1,6 +1,6 @@
 # hatian-presidents-api
 
-> This is a Rails API showing the list of Haitian Heads of State. This project is open-source. If you have something to add, change or update, you're free to do it.
+> This is a Rails API showing the list of Haitian Heads of State. This project is open-source. If you have something to add, change or update, you're free to do it. 
 
 ## Built With
 

@@ -4937,3 +4937,115 @@ Processing by Api::V1::PresidentsController#index as JSON
 Completed 200 OK in 6ms (Views: 5.1ms | ActiveRecord: 0.4ms | Allocations: 1003)
 
 
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 16:57:33 +0100
+Started GET "/api/v1/presidents/api-docs" for 127.0.0.1 at 2022-09-25 17:10:34 +0100
+Processing by Api::V1::PresidentsController#show as */*
+  Parameters: {"id"=>"api-docs"}
+  [1m[36mPresident Load (7.0ms)[0m  [1m[34mSELECT "presidents".* FROM "presidents" WHERE "presidents"."id" = $1 LIMIT $2[0m  [["id", nil], ["LIMIT", 1]]
+  ↳ app/controllers/api/v1/presidents_controller.rb:13:in `show'
+Completed 404 Not Found in 90ms (ActiveRecord: 43.2ms | Allocations: 3654)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find President with 'id'=api-docs):
+  
+app/controllers/api/v1/presidents_controller.rb:13:in `show'
+Started GET "/" for ::1 at 2022-09-25 17:33:29 +0100
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/stanleymartialsimeon/.gem/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/stanleymartialsimeon/.gem/gems/railties-7.0.4/lib/rails/templates/rails/welcome/index.html.erb (Duration: 3.1ms | Allocations: 524)
+Completed 200 OK in 25ms (Views: 7.5ms | Allocations: 3505)
+
+
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 17:49:09 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 17:49:10 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:19:50 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:20:05 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:22:12 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:22:12 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:22:12 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:22:12 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:22:12 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:22:13 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:25:39 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:25:39 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:25:39 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:25:39 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:25:40 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:25:40 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:25:40 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:25:59 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:47:54 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-25 18:47:55 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-26 11:32:22 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-26 11:32:22 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-26 11:32:22 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-26 11:32:22 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-26 11:32:23 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-26 11:32:23 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-26 11:32:23 +0100
+Started GET "/api-docs/index.html" for ::1 at 2022-09-26 13:49:50 +0100
+Started GET "/api-docs/swagger-ui-standalone-preset.js" for ::1 at 2022-09-26 13:49:50 +0100
+Started GET "/api-docs/swagger-ui-bundle.js" for ::1 at 2022-09-26 13:49:50 +0100
+Started GET "/api-docs/swagger-ui.css" for ::1 at 2022-09-26 13:49:50 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-26 13:49:51 +0100
+Started GET "/api-docs/v1/swagger.json" for ::1 at 2022-09-26 13:49:51 +0100
+Started GET "/api-docs/favicon-32x32.png" for ::1 at 2022-09-26 13:49:51 +0100

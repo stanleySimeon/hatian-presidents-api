@@ -16,7 +16,7 @@ RSpec.configure do |config|
     'v1/swagger.json' => {
       openapi: '3.0.1',
       info: {
-        title: 'API V1',
+        title: 'Haitian Presidents API',
         version: 'v1'
       },
       paths: {},
